@@ -1,0 +1,5 @@
+smbclient:
+smbclient -L //10.129.96.197
+
+enum4linux:
+enum4linux-ng 10.129.96.197
