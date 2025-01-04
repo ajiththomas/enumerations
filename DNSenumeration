@@ -5,3 +5,9 @@ dig axfr @10.129.96.197 freelancer.htb
 
 dnsrecon:
 dnsrecon -d freelancer.htb -t axfr
+
+dnsenum:
+dnsenum freelancer.htb
+
+sublist3r:
+sublist3r -d freelancer.htb
