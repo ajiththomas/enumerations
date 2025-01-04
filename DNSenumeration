@@ -11,3 +11,8 @@ dnsenum freelancer.htb
 
 sublist3r:
 sublist3r -d freelancer.htb
+
+Analyze default records:
+dig @10.129.96.197 freelancer.htb A
+dig @10.129.96.197 freelancer.htb MX
+dig @10.129.96.197 freelancer.htb TXT
