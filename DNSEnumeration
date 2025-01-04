@@ -1,0 +1,7 @@
+Check for zone transfers and subdomains:
+
+dig:
+dig axfr @10.129.96.197 freelancer.htb
+
+dnsrecon:
+dnsrecon -d freelancer.htb -t axfr
