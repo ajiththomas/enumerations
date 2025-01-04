@@ -1,0 +1,2 @@
+gobuster:
+gobuster dir -u http://freelancer.htb -w /path/to/wordlist.txt -x php,txt,html
